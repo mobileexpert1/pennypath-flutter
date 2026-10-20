@@ -1,0 +1,6 @@
+{
+  "APP_ENV": "staging",
+  "BACKEND": "rest",
+  "API_BASE_URL": "https://api.example.com/v1",
+  "CERT_PINS": ""
+}

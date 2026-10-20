@@ -1,0 +1,61 @@
+name: pennypath
+description: "Pennypath — an offline-first personal finance app showcasing clean architecture in Flutter."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.12.1
+
+dependencies:
+  crypto: ^3.0.7
+  dio: ^5.11.1
+  equatable: ^2.1.0
+  fl_chart: ^1.2.0
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  flutter_riverpod: ^3.4.3
+  flutter_secure_storage: ^11.2.0
+  go_router: ^18.1.0
+  hive_ce: ^2.22.0
+  hive_ce_flutter: ^2.5.0
+  intl: ^0.20.2
+  local_auth: ^3.0.2
+  shared_preferences: ^2.5.6
+  uuid: ^4.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+  mocktail: ^1.0.5
+  flutter_launcher_icons: ^0.14.4
+  flutter_native_splash: ^2.4.8
+  integration_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+flutter_launcher_icons:
+  image_path: assets/branding/app_icon.png
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  adaptive_icon_background: "#0F766E"
+  adaptive_icon_foreground: assets/branding/app_icon_foreground.png
+  min_sdk_android: 24
+  web:
+    generate: true
+    background_color: "#0F766E"
+    theme_color: "#0F766E"
+
+flutter_native_splash:
+  color: "#0F766E"
+  image: assets/branding/splash_logo.png
+  android_12:
+    color: "#0F766E"
+    image: assets/branding/app_icon_foreground.png
+  web: true
