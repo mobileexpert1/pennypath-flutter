@@ -1,0 +1,168 @@
+{
+  "@@locale": "en",
+  "appName": "Pennypath",
+  "retry": "Try again",
+  "cancel": "Cancel",
+  "save": "Save",
+  "delete": "Delete",
+  "undo": "Undo",
+  "seeAll": "See all",
+  "errorNetwork": "You're offline. Check your connection and try again.",
+  "errorUnauthorized": "Your session has expired. Please sign in again.",
+  "errorInvalidCredentials": "Incorrect email or password.",
+  "errorEmailInUse": "An account with this email already exists.",
+  "errorNotFound": "We couldn't find that item.",
+  "errorServer": "Something went wrong on our side. Please try again.",
+  "errorStorage": "Couldn't access data on this device.",
+  "errorUnexpected": "Something unexpected happened.",
+  "errorValidation": "Please fix the highlighted fields.",
+  "nameRequired": "Enter your name",
+  "emailRequired": "Enter your email",
+  "emailInvalid": "Enter a valid email address",
+  "passwordRequired": "Enter your password",
+  "passwordTooShort": "Use at least {min} characters",
+  "@passwordTooShort": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      }
+    }
+  },
+  "passwordTooWeak": "Use both letters and numbers",
+  "amountRequired": "Enter an amount",
+  "amountNotPositive": "Amount must be greater than zero",
+  "amountTooLarge": "That amount is too large",
+  "titleRequired": "Enter a title",
+  "titleTooLong": "Keep the title under {max} characters",
+  "@titleTooLong": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "noteTooLong": "Keep the note under {max} characters",
+  "@noteTooLong": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "dateInFuture": "Date can't be in the future",
+  "categoryMismatch": "Choose a category that matches the type",
+  "authHeadline": "Take control of your money",
+  "authSignInSubtitle": "Sign in to continue",
+  "authSignUpSubtitle": "Create your free account",
+  "authName": "Full name",
+  "authEmail": "Email",
+  "authPassword": "Password",
+  "authSignIn": "Sign in",
+  "authSignUp": "Create account",
+  "authSwitchToSignUp": "New here? Create an account",
+  "authSwitchToSignIn": "Already have an account? Sign in",
+  "authDemoTitle": "Demo mode",
+  "authDemoBody": "Runs on a built-in mock server. Use the demo account or create your own.",
+  "authUseDemo": "Use demo account",
+  "showPassword": "Show password",
+  "hidePassword": "Hide password",
+  "navOverview": "Overview",
+  "navTransactions": "Transactions",
+  "navSettings": "Settings",
+  "dashboardGreeting": "Hi, {name}",
+  "@dashboardGreeting": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "dashboardBalance": "Total balance",
+  "dashboardThisMonth": "This month",
+  "dashboardSpending": "Spending by category",
+  "dashboardNoSpending": "No spending this month yet",
+  "dashboardRecent": "Recent activity",
+  "emptyTitle": "No transactions yet",
+  "emptyBody": "Add your first income or expense to see your overview.",
+  "addTransaction": "Add transaction",
+  "searchHint": "Search transactions",
+  "filterAll": "All",
+  "typeIncome": "Income",
+  "typeExpense": "Expenses",
+  "noResultsTitle": "No matches",
+  "noResultsBody": "Try a different search or filter.",
+  "clearFilters": "Clear filters",
+  "transactionDeleted": "Transaction deleted",
+  "transactionSaved": "Transaction saved",
+  "today": "Today",
+  "yesterday": "Yesterday",
+  "formNewTitle": "New transaction",
+  "formEditTitle": "Edit transaction",
+  "formAmount": "Amount",
+  "formTitle": "Title",
+  "formTitleHint": "e.g. Weekly groceries",
+  "formCategory": "Category",
+  "formDate": "Date",
+  "formNote": "Note (optional)",
+  "deleteConfirmTitle": "Delete this transaction?",
+  "deleteConfirmBody": "It will be removed from all your devices.",
+  "categorySalary": "Salary",
+  "categoryFreelance": "Freelance",
+  "categoryInvestment": "Investments",
+  "categoryGift": "Gifts",
+  "categoryOtherIncome": "Other income",
+  "categoryFood": "Eating out",
+  "categoryGroceries": "Groceries",
+  "categoryTransport": "Transport",
+  "categoryShopping": "Shopping",
+  "categoryHousing": "Housing",
+  "categoryUtilities": "Bills & utilities",
+  "categoryEntertainment": "Entertainment",
+  "categoryHealth": "Health",
+  "categoryTravel": "Travel",
+  "categoryOtherExpense": "Other",
+  "syncOffline": "{count, plural, =0{Offline · showing saved data} =1{Offline · 1 change will sync later} other{Offline · {count} changes will sync later}}",
+  "@syncOffline": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "settingsAppearance": "Appearance",
+  "settingsTheme": "Theme",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "settingsLanguage": "Language",
+  "languageSystem": "System default",
+  "settingsCurrency": "Currency",
+  "settingsSecurity": "Security",
+  "settingsAppLock": "App lock",
+  "settingsAppLockSubtitle": "Require Face ID, fingerprint or device PIN",
+  "settingsAppLockUnavailable": "Not available on this device",
+  "settingsDeveloper": "Developer",
+  "settingsSimulateOffline": "Simulate offline",
+  "settingsSimulateOfflineSubtitle": "The mock server stops responding",
+  "settingsSyncNow": "Sync now",
+  "settingsLastSynced": "Last synced {time}",
+  "@settingsLastSynced": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "settingsNeverSynced": "Not synced yet",
+  "settingsAbout": "About",
+  "settingsBackend": "Backend",
+  "settingsEnvironment": "Environment",
+  "signOut": "Sign out",
+  "signOutConfirmTitle": "Sign out?",
+  "signOutConfirmBody": "Data on this device will be removed. Unsynced changes are uploaded first when possible.",
+  "lockTitle": "Pennypath is locked",
+  "lockBody": "Unlock to view your finances.",
+  "lockUnlock": "Unlock",
+  "lockReason": "Unlock Pennypath",
+  "enableLockReason": "Confirm to turn on app lock"
+}
